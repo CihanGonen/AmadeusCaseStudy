@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Amadeus Case Study - Flight Search Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This projectis developed as a case study.
 
-## Available Scripts
+## How to run
 
 In the project directory, you can run:
 
+###  `npm install`
+
+And after that start json-server by 
+
+### `json-server --watch db.json --port 5000`
+
+and start react app
+
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Things I want to mention
 
-### `npm test`
+Project consists of two pages one is the home page that we have our form. The other is list page that we list flights.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Home page
 
-### `npm run build`
+![home](https://github.com/CihanGonen/AmadeusCaseStudy/assets/48177270/cbce9262-a331-4f9f-9a0c-e2fc5ae6a5b4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## List page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![list](https://github.com/CihanGonen/AmadeusCaseStudy/assets/48177270/6139c600-8c0b-4a70-af1c-ee1a16a8d032)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Even though I can create a server or use a api. Since I created this project for UI Developer case, i demonstrated my skills on state management and UI Development. Therefore I used simple json-server api and the datas that i created with the help of AI. So I kept my sample small with 5 airports and 100 flights to try out different cases.
 
-### `npm run eject`
+## Suggestion
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I usually used form with these inputs so i also suggest you to try it
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+from -> İzmir Adnan Menderes
+to -> Antalya
+departureDate -> 05-09-2023
+returnDate -> 06-09-2023
+round trip -> chosen
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+With these inputs we can see round trip flights.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I would love to talk about the project more and explain it in great detail! Thanks for reading.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
