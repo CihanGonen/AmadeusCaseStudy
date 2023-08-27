@@ -80,14 +80,14 @@ const Home = () => {
     setErrors(errorsHolder);
     if (!anyError) {
       let formattedDepartureDate = departureDate.format("DD-MM-YYYY");
-      let formattedReturnDate;
-      if (returnDate) {
+      let formattedReturnDate = "";
+      if (returnDate && !isOneWay) {
         formattedReturnDate = returnDate.format("DD-MM-YYYY");
       }
 
       navigate(
         `/list?airportFrom=${airportFrom}&airportTo=${airportTo}&departureDate=${formattedDepartureDate}&${
-          returnDate ? "returnDate=" + formattedReturnDate : ""
+          formattedReturnDate ? "returnDate=" + formattedReturnDate : ""
         }`
       );
     }

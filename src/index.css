@@ -33,13 +33,8 @@ code {
 .MuiFormControl-root {
   background-color: #f0f1f5;
   color: black;
-  border: none !important;
   height: 40px;
   width: 100%;
-}
-
-.myDatePicker fieldset.MuiOutlinedInput-notchedOutline {
-  border-color: red;
 }
 
 .no-data-text {
